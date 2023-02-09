@@ -13,7 +13,12 @@ export default function ShoppingList() {
     });
   };
 
-  // TODO event handler for removing item from shopping list
+  // event handler for removing item from shopping list
+  const removeItem = (targetIndex) => {
+    setShoppingList((prev) => {
+      return prev.filter((item, index) => index !== targetIndex);
+    });
+  };
 
   return (
     <>
@@ -21,8 +26,10 @@ export default function ShoppingList() {
       <p>Select an item to remove from shopping list.</p>
       {/* display added items as a list using .map */}
       <ul>
-        {shoppingList.map((item) => (
-          <li>{item}</li>
+        {shoppingList.map((item, index) => (
+          <li key={index} onClick={() => removeItem(index)}>
+            {item}
+          </li>
         ))}
       </ul>
 
