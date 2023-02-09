@@ -18,6 +18,14 @@ p {
   color: var(--color3);
 }
 
+li {
+  margin: 15px 0px;
+}
+li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
 button {
   /* size and spacing */
   width: 150px;
