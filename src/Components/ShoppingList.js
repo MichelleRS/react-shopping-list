@@ -1,4 +1,6 @@
 import React from "react";
+import { produce } from "../list.js";
+import ItemsList from "./ItemsList.js";
 
 export default function ShoppingList() {
   // TODO declare and initialize state
@@ -15,8 +17,10 @@ export default function ShoppingList() {
 
       <h2>Add Items</h2>
       <p>Select an item to add to shopping list.</p>
+
       <h3>Produce</h3>
-      {/* TODO call ItemsList to display produce options  */}
+      {/* call ItemsList to display produce options  */}
+      <ItemsList items={produce} />
     </>
   );
 }
