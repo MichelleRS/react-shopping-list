@@ -2,13 +2,37 @@
 .App {
   width: 700px;
   margin: 20px auto;
+  padding: 20px;
+  background-color: var(--color1);
+  border: 3px solid var(--color3);
 }
 
-/* remove default margin and padding from text */
 h1,
 h2,
 h3,
 p {
+  /* remove default margin and padding from text */
   margin: 0px;
   padding: 0px;
+  /* apply text color */
+  color: var(--color3);
+}
+
+button {
+  /* size and spacing */
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+  /* color */
+  background-color: var(--color2);
+  color: var(--color1);
+  /* text */
+  font-size: 1rem;
+  font-weight: bolder;
+  /* style */
+  border: none;
+}
+
+button:hover {
+  background-color: var(--color4);
 }
