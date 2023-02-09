@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { produce } from "../list.js";
 import ItemsList from "./ItemsList.js";
+import "../App.css";
 
 export default function ShoppingList() {
   // declare and initialize state
