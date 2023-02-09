@@ -1,13 +1,8 @@
 # React Shopping List
 
-## Description
-
-Single page app with commonly purchased grocery items to add to a shopping list. User can remove items that have been adding to list.
-
----
-
 ## Table of Contents
 
+- [Description](#description)
 - [Project Status](#project-status)
 - [Planning](#planning)
 - [Problems and Solutions](#problems-and-solutions)
@@ -16,9 +11,16 @@ Single page app with commonly purchased grocery items to add to a shopping list.
 
 ---
 
+## Description
+
+Single page app with commonly purchased grocery items to add to a shopping list. User can remove items that have been adding to list.
+
+[Back to Table of Contents](#table-of-contents)
+
 ## Project Status
 
-- in progress
+- Functions as intended
+- Basic styling added
 
 [Back to Table of Contents](#table-of-contents)
 
