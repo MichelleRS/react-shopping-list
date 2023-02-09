@@ -1,4 +1,14 @@
+/* apply fixed width and center App */
 .App {
   width: 700px;
   margin: 20px auto;
+}
+
+/* remove default margin and padding from text */
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
 }
