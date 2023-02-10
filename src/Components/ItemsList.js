@@ -8,7 +8,7 @@ export default function ItemsList({ items, onItemClick }) {
   };
 
   return (
-    <div>
+    <div className="items-container">
       {/* use .map to render a button for each item in list.js */}
       {items.map((item, index) => (
         <button key={index} value={item} onClick={handleClick}>
